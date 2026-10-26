@@ -1,6 +1,5 @@
-<p align= "center">
-    Esercizi tratti dalle esercitazioni proposte per il corso di Basi Di Dati
-</p>
+
+# Esercizi tratti dalle esercitazioni proposte per il corso di Basi Di Dati
 
 ---
 
