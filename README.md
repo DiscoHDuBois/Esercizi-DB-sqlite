@@ -52,6 +52,3 @@ sqlite3 --version
 | `.output stdout`                                     | Torna a stampare i risultati a schermo                         |
 | `.help`                                              | Elenca tutti i comandi della shell                             |
 | `.quit`                                              | Esce da sqlite3                                                |
-
----
-
