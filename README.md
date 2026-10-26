@@ -1,7 +1,9 @@
 
 # Esercizi tratti dalle esercitazioni proposte per il corso di Basi Di Dati
 
----
+## Cartella `db-e-query`
+Contiene testi, esercizi svolti e il database.
+
 
 ## Installazione di sqlite3
 
@@ -52,7 +54,4 @@ sqlite3 --version
 | `.quit`                                              | Esce da sqlite3                                                |
 
 ---
-# Cartella `db-e-query`
-Contiene testi, esercizi svolti e il database.
 
----
