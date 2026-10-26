@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows / Linux
+Thumbs.db
+Desktop.ini
+*~
+.directory
+
+# SQLite: file temporanei (biblioteca.db resta versionato)
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+.sqlite_history
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code (impostazioni locali)
+.claude/settings.local.json
