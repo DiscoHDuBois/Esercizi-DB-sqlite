@@ -1,5 +1,5 @@
 
-# Esercizi tratti dalle esercitazioni proposte per il corso di Basi Di Dati
+# Esercizi per il corso di Basi Di Dati
 
 ## Cartella `db-e-query`
 Contiene testi, esercizi svolti e il database.
