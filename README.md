@@ -1,5 +1,21 @@
+# Esercizi SQL — Basi di Dati
 
-# Esercizi tratti dalle esercitazioni proposte per il corso di Basi Di Dati
+Esercizi tratti dalle esercitazioni proposte per il corso di Basi di Dati.
+
+```
+esercizi-sql/
+└── db-e-query/
+    ├── biblioteca.db        database SQLite usato da tutti gli esercizi
+    ├── testi-esercizi.md    schema del database e testi degli esercizi
+    └── esercizioNN.sql      soluzione dell'esercizio NN (01–16)
+```
+
+Per eseguire una soluzione:
+
+```bash
+cd db-e-query
+sqlite3 -header -column biblioteca.db < esercizio01.sql
+```
 
 ---
 
@@ -35,7 +51,7 @@ sqlite3 --version
 
 | Comando                                              | Descrizione                                                    |
 |------------------------------------------------------|----------------------------------------------------------------|
-| `sqlite3 biblioteca.db`                              | Apre il database (da terminale, nella cartella `esercizi-sql`) |
+| `sqlite3 biblioteca.db`                              | Apre il database (da terminale, nella cartella `db-e-query`)   |
 | `sqlite3 -header -column biblioteca.db < file.sql`   | Esegue un file `.sql` senza entrare nella shell                |
 | `.headers on`                                        | Mostra i nomi delle colonne nei risultati                      |
 | `.mode column`                                       | Mostra i risultati incolonnati (più leggibili)                 |
@@ -43,16 +59,10 @@ sqlite3 --version
 | `.tables`                                            | Elenca le tabelle del database                                 |
 | `.schema`                                            | Mostra il `CREATE TABLE` di tutte le tabelle                   |
 | `.schema Libri`                                      | Mostra la struttura di una sola tabella                        |
-| `.read esercizio1.sql`                               | Esegue un file `.sql` dall'interno della shell                 |
+| `.read esercizio01.sql`                              | Esegue un file `.sql` dall'interno della shell                 |
 | `.nullvalue NULL`                                    | Mostra `NULL` invece di una cella vuota                        |
 | `.timer on`                                          | Mostra il tempo di esecuzione delle query                      |
 | `.output risultato.txt`                              | Salva i risultati in un file invece di stamparli               |
 | `.output stdout`                                     | Torna a stampare i risultati a schermo                         |
 | `.help`                                              | Elenca tutti i comandi della shell                             |
 | `.quit`                                              | Esce da sqlite3                                                |
-
----
-# Cartella `db-e-query`
-Contiene testi, esercizi svolti e il database.
-
----
