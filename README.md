@@ -17,7 +17,6 @@ cd db-e-query
 sqlite3 -header -column biblioteca.db < esercizio01.sql
 ```
 
----
 
 ## Installazione di sqlite3
 
