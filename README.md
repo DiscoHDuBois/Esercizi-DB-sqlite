@@ -3,7 +3,7 @@
 Esercizi tratti dalle esercitazioni proposte per il corso di Basi di Dati.
 
 ```
-esercizi-sql/
+Esercizi-DB-sqlite/
 └── db-e-query/
     ├── biblioteca.db        database SQLite usato da tutti gli esercizi
     ├── testi-esercizi.md    schema del database e testi degli esercizi
