@@ -8,7 +8,7 @@ Esercizi-DB-sqlite/
     ├── biblioteca.db        database SQLite usato da tutti gli esercizi
     ├── biblioteca.sql       script con tabelle, dati e risultati attesi
     ├── testi-esercizi.md    schema del database e testi degli esercizi
-    └── esercizio*.sql      soluzione dell'esercizio * (01–16)
+    └── esercizio*.sql       soluzione dell'esercizio * (01–16)
 ```
 
 Per eseguire una soluzione:
