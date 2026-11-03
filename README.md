@@ -6,8 +6,9 @@ Esercizi tratti dalle esercitazioni proposte per il corso di Basi di Dati.
 Esercizi-DB-sqlite/
 └── db-e-query/
     ├── biblioteca.db        database SQLite usato da tutti gli esercizi
+    ├── biblioteca.sql       script con tabelle, dati e risultati attesi
     ├── testi-esercizi.md    schema del database e testi degli esercizi
-    └── esercizioNN.sql      soluzione dell'esercizio NN (01–16)
+    └── esercizio*.sql      soluzione dell'esercizio * (01–16)
 ```
 
 Per eseguire una soluzione:
@@ -17,8 +18,26 @@ cd db-e-query
 sqlite3 -header -column biblioteca.db < esercizio01.sql
 ```
 
+`biblioteca.db` è generato da `biblioteca.sql`. Per ricrearlo da zero (ad esempio dopo averlo modificato per prova):
+
+```bash
+cd db-e-query
+rm -f biblioteca.db
+sqlite3 biblioteca.db < biblioteca.sql
+```
+
+In fondo a `biblioteca.sql` ci sono i risultati attesi di ogni esercizio, utili per controllare le proprie soluzioni.
+
 
 ## Installazione di sqlite3
+
+### Linux
+
+| Distribuzione            | Comando                                       |
+|--------------------------|-----------------------------------------------|
+| Debian / Ubuntu          | `sudo apt update && sudo apt install sqlite3` |
+| Fedora                   | `sudo dnf install sqlite`                     |
+| Arch                     | `sudo pacman -S sqlite`                       |
 
 ### macOS (Homebrew)
 
@@ -29,15 +48,6 @@ brew install sqlite
 ```
 
 ---
-
-### Linux
-
-| Distribuzione            | Comando                                       |
-|--------------------------|-----------------------------------------------|
-| Debian / Ubuntu          | `sudo apt update && sudo apt install sqlite3` |
-| Fedora                   | `sudo dnf install sqlite`                     |
-| Arch                     | `sudo pacman -S sqlite`                       |
-
 
 ### Verifica dell'installazione
 
